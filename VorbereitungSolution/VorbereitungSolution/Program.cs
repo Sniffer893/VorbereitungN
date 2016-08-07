@@ -10,8 +10,16 @@ namespace VorbereitungSolution
     {
         static void Main(string[] args)
         {
-            Artist a1 = new Artist();
-            a1.Name = "Geht das?";
+            Artist a1 = new Artist(){
+                Name = "Huber"
+            };
+
+            // equivalent zu
+
+            Artist a2 = new Artist("Huber");
+
+
+
 
             Console.WriteLine(a1.Name);
 

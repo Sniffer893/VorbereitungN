@@ -10,7 +10,13 @@ namespace VorbereitungSolution
     {
         static void Main(string[] args)
         {
-            //commit
+            Artist a1 = new Artist();
+            a1.Name = "Geht das?";
+
+            Console.WriteLine(a1.Name);
+
+            //Damit das Programm nicht sofort beendet.
+            Console.ReadLine();
         }
     }
 }
